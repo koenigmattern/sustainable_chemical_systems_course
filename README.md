@@ -5,6 +5,6 @@ In this repo, you can find the course materials for the lecture block that I giv
 [View lecture on GitHub](suschemsys/lectures_suschemsys_modelling.ipynb)
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](
-https://colab.research.google.com/github/koenigmattern/suschemsys/blob/main/notebooks/lectures_suschemsys_modelling.ipynb
+https://colab.research.google.com/github/koenigmattern/suschemsys/blob/main/suschemsys/lectures_suschemsys_modelling.ipynb
 )
 
