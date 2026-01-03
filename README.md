@@ -1,4 +1,4 @@
-# :seedling: Computational models for Sustainable Chemical Systems
+# :seedling: Computational Models for Sustainable Chemical Systems
 
 In this repo, you can find the course materials for the lectures block that I give as a co-lecturer within the module "Sustainable Chemical Systems" at the University of Leipzig (winter term 25/26).
 
