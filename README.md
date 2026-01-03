@@ -25,7 +25,7 @@ In this course block, we will:
 
 On the fly, we will dive into the fundamentals of modelling, machine learning and learn a lot about toxicity and lignin dissolution as well!
 
-1. Installation instructions: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](
+1. Installation: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](
 https://colab.research.google.com/github/koenigmattern/sustainable_chemical_systems_course/blob/main/suschemsys/Installation.ipynb
 )
 
@@ -34,4 +34,5 @@ https://colab.research.google.com/github/koenigmattern/sustainable_chemical_syst
 )
 
 ## :clipboard: Note
-The code we develop is optimized for educational purposes rather than for performance. I tried to keep it as simple and yet informative as possible to make it accessible to various levels of coding experience.
+* The code we develop is optimized for educational purposes rather than for performance. I tried to keep it as simple and yet informative as possible to make it accessible to various levels of coding experience.
+* Thanks to Jun.-Prof. Hendrik Mattern for sharing the html/pdf-export code in his awesome open-access physics lectures, find them [here](https://github.com/hendrikmattern/physics)
