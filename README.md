@@ -3,10 +3,10 @@
 In this repo, you can find the course materials for the lectures block that I give as a co-lecturer within the module "Sustainable Chemical Systems" at the University of Leipzig (winter term 25/26).
 
 **Lecturer:** 
-Dr.-Ing. Laura König-Mattern
-Group Leader for Computational Biorefining
-Center for the Transformation of Chemistry
-Mail: laura.koenig-mattern@ctc-germany.org
+Dr.-Ing. Laura König-Mattern  
+Group Leader for Computational Biorefining  
+Center for the Transformation of Chemistry  
+Mail: laura.koenig-mattern@ctc-germany.org  
 Homepage: [https://transforming-chemistry.org/forschung/forschungsgruppen/#biorefineries](https://transforming-chemistry.org/forschung/forschungsgruppen/#biorefineries)
 
 ## :bulb: Course outline
