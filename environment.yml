@@ -1,0 +1,27 @@
+name: suschemsys
+channels:
+  - conda-forge
+  - pytorch
+  - pyg
+dependencies:
+  - python=3.12
+  - jupyter
+  - jupyterlab
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - rdkit
+  - umap-learn
+  - mamba
+  - pip
+  - bokeh
+  - pip:
+      - pubchempy
+      - swifter
+      - ipdb
+      - torch 
+      - torchvision
+      - torch_geometric
+
