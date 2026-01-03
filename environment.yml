@@ -24,4 +24,5 @@ dependencies:
       - torch 
       - torchvision
       - torch_geometric
+      - drugtax
 
