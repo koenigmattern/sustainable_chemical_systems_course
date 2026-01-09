@@ -78,16 +78,18 @@ def GNN_lignin(df, mol_column):
     path        = os.getcwd()
     
     for e in range(1, n_ensembles+1):
-        ## for use in PSEvolve:
-        path_model_info = path + '\\' + 'Trained_GNN_LC' + '\\' + 'lignin' + '\\Ensemble_' + str(e)
+        
+        path_model_info = '../' 'code' + '/' + 'Trained_GNN_LC' + '/' + 'lignin' + '/Ensemble_' + str(e)
 
         ## for test.py:
         #path_model_info = path + '\\lignin' + '\\Ensemble_' + str(e)
         model = GNN(num_layer=num_layer, drop_ratio=drop_ratio, conv_dim=conv_dim,
                    neurons_message=n_ms, mlp_layers=mlp_layers, mlp_dims=mlp_dims)
         
+    
+        
         #model.load_state_dict(torch.load(path_model_info + '/Ensemble_' + str(e) + '.pth'))
-        model.load_state_dict(torch.load(path_model_info + '\\Ensemble_' + str(e) + '.pth'))
+        model.load_state_dict(torch.load(path_model_info + '/Ensemble_' + str(e) + '.pth'))
 
 
         model.eval()
