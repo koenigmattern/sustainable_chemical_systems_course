@@ -27,7 +27,7 @@ hyp = { 'n_ensembles': 5,
          'mlp_layers':3,
          'mlp_dims':[50, 25, 1]}
 
-def GNN_lignin(df, mol_column):
+def GNN_lignin(df, mol_column, path_model):
     '''
     Predicts log solubility of lignin for a collection of molecules
 
@@ -79,7 +79,15 @@ def GNN_lignin(df, mol_column):
     
     for e in range(1, n_ensembles+1):
         
-        path_model_info = '../' 'code' + '/' + 'Trained_GNN_LC' + '/' + 'lignin' + '/Ensemble_' + str(e)
+      
+        #path_model_info = '../' 'code' + '/' + 'Trained_GNN_LC' + '/' + 'lignin' + '/Ensemble_' + str(e)
+        path_model_info = (
+        path_model
+        / f"Ensemble_{e}"
+        / f"Ensemble_{e}.pth")
+
+
+        
 
         ## for test.py:
         #path_model_info = path + '\\lignin' + '\\Ensemble_' + str(e)
@@ -88,8 +96,9 @@ def GNN_lignin(df, mol_column):
         
     
         
+        
         #model.load_state_dict(torch.load(path_model_info + '/Ensemble_' + str(e) + '.pth'))
-        model.load_state_dict(torch.load(path_model_info + '/Ensemble_' + str(e) + '.pth'))
+        model.load_state_dict(torch.load(path_model_info))
 
 
         model.eval()
