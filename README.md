@@ -1,6 +1,6 @@
 # :seedling: Computational Models for Sustainable Chemical Systems
 
-In this repo, you can find the course materials for the lectures block that I give as a co-lecturer within the module "Sustainable Chemical Systems" at the University of Leipzig (winter term 25/26). Thanks to Dr. Majd Al-Naji for inviting me!
+In this repo, you can find the course materials for the lectures block that I give as a co-lecturer within the module "Sustainable Systems in Chemsitry" at the University of Leipzig (winter term 25/26). Thanks to Dr. Majd Al-Naji for inviting me!
 
 **Lecturer:** 
 Dr.-Ing. Laura König-Mattern  
@@ -10,6 +10,8 @@ Mail: laura.koenig-mattern@ctc-germany.org
 Homepage: [https://transforming-chemistry.org/forschung/forschungsgruppen/#biorefineries](https://transforming-chemistry.org/forschung/forschungsgruppen/#biorefineries)
 
 ## :bulb: Course outline
+
+This course provides an introduction to modelling with a focus on data-driven approaches. Students will learn the fundamentals of building models from data, including key concepts in regression and classification. The course also introduces Pareto optimality and explores its application in multi-objective decision-making, illustrated through solvent selection for biorefineries. Throughout, students will learn how to formulate modelling problems, select appropriate methods, and interpret results, with practical examples to develop hands-on skills in creating predictive models.
 
 Our lectures will evolve around the following practical example: **Identifying "green" solvents for dissolving lignin**
 
